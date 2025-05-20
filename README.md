@@ -24,3 +24,18 @@ Este projeto é uma aplicação simples de **CRUD (Create, Read, Update, Delete)
 
 ```bash
 python crud_usuarios.py
+```
+Siga as instruções do menu para interagir com a aplicação.
+
+# 🧠 Estrutura do Projeto
+O sistema armazena os dados dos usuários em um dicionário Python com o formato:
+```
+usuarios = {
+    1: {"nome": "João", "idade": 30},
+    2: {"nome": "Maria", "idade": 25}
+}
+```
+Cada operação (criar, listar, buscar, atualizar, deletar) é implementada como uma função separada, e o programa exibe um menu interativo com as opções disponíveis.
+
+# 🎯 Objetivo
+Este projeto foi desenvolvido com fins educacionais para treinar lógica de programação, manipulação de estruturas de dados em Python e interação via terminal.
